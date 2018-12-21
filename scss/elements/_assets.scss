@@ -1,0 +1,48 @@
+// -----------------------
+// media queries
+// -----------------------
+$breakpoint_1: 1000px;
+$breakpoint_2: 780px;
+$breakpoint_3: 550px;
+
+// -----------------------
+// color text
+// -----------------------
+$color_text: #7D8287;
+
+// -----------------------
+// general colors
+// -----------------------
+$color_brand_blue:  #0067C8;
+$color_white: #FFFFFF;
+
+// -----------------------
+// font sizes
+// -----------------------
+$font_banner_titles: 50px;
+$font_titles: 24px;
+$font_txt: 16px;
+
+// -----------------------
+// font family helevetica neue condensed
+// -----------------------
+$font_hel_light: 'HelveticaNeueLTStd-Lt'; // light
+$font_hel_light_italic: 'HelveticaNeueLTStd-LtCnO'; // light condensed oblique
+$font_hel_black_italic: 'HelveticaNeueLTStd-BlkCnO'; // black condensed oblique
+$font_hel_black: 'HelveticaNeueLTStd-BlkCn'; // black condensed
+$font_hel_medium: 'HelveticaNeueLTStd-MdCn'; // medium condensed
+$font_hel_light_cond: 'HelveticaNeueLTStd-LtCn'; // light condensed
+
+// -----------------------
+// font family myriad pro
+// -----------------------
+$font_myr_black_italic: 'MyriadPro-BlackCondIt'; // black condensed italic
+$font_myr_semibold_condensed: 'MyriadPro-SemiboldCond';  // semibold condensed
+$font_myr_semi: 'MyriadPro-SemiCn'; // semicondensed
+$font_myr_semibold_italic: 'MyriadPro-SemiboldSemiExtIt'; // semibold semiextended italic
+$font_myr_semicondensed_italic: 'MyriadPro-SemiCnIt'; // semicondensed italic
+$font_myr_condensed_italic: 'MyriadPro-CondIt'; // condensed italic
+$font_myr_semibold: 'MyriadPro-Semibold'; // semibold
+$font_myr_light: 'MyriadPro-Light'; // light
+$font_myr_bold_italic: 'MyriadPro-BoldCondIt'; // bold condensed italic
+$font_myr_light_italic: 'MyriadPro-LightIt'; // light italic

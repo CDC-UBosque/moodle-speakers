@@ -1,0 +1,28 @@
+// -----------------------
+// banner home
+// -----------------------
+
+.curso-cc,
+#region-main .curso-cc{
+	
+	.footer{
+		max-width: 400px;
+		background: none;
+		margin: auto;
+		
+		div{
+			display: inline-block;	
+			margin: 1rem;
+		}
+		
+		span{
+			font-family: $font_hel_light_cond;
+			font-size: $font_txt;
+			color: $color_text;	
+			display: block;
+			text-align: center
+		}
+		
+	}
+	
+}

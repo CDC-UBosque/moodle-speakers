@@ -1,0 +1,43 @@
+// -----------------------
+// typography
+// -----------------------
+
+.curso-cc,
+#region-main .curso-cc{
+	
+	font-family: $font_hel_light;
+	font-size: $font_txt;
+	color: $color_text;
+	
+	
+	h1{
+		font-family: $font_myr_light;
+		font-size: $font_banner_titles;
+		color: $color_white;
+		
+		@media (max-width: $breakpoint_3){
+			font-size: 2.4em;
+			line-height: 1em;
+		}
+		    font-weight: 100;
+	}
+	
+	h2{
+		display: block;
+		    font-weight: 100;
+	}
+	
+	h3{
+		display: block;
+		    font-weight: 100;
+	}
+	
+	p{
+		font-family: $font_hel_light_cond;
+		font-size: $font_txt;
+		color: $color_text;		
+		max-width: 817px;
+		margin: auto;
+	}
+	
+}

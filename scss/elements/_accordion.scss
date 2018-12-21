@@ -1,0 +1,49 @@
+// -----------------------
+// accordion
+// -----------------------
+
+.curso-cc,
+#region-main .curso-cc{
+	
+	.content-cc{
+		
+		.accordion{
+			
+			max-width: 810px;
+			margin: 0 auto 2rem;
+			
+			.accordion-group{
+				border: 0px;
+				border-radius: 0px;
+				margin-bottom: 0;
+				margin-top: -1px;
+				
+				.accordion-heading{
+					
+					.accordion-toggle,
+					.accordion-toggle.collapsed{
+						background: $color_white;
+						border: 1px solid $color_brand_blue;
+						color: $color_brand_blue;
+						font-family: $font_myr_semibold;
+						
+						&:hover{
+							background: $color_brand_blue;
+							color: $color_white;
+						}
+						
+					}
+					
+				}
+				
+				.accordion-body{
+					background: $color_light_background;
+				}
+				
+			}
+			
+		}
+		
+	}
+	
+}

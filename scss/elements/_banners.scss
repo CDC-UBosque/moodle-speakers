@@ -1,0 +1,67 @@
+// -----------------------
+// banner home
+// -----------------------
+
+.curso-cc,
+#region-main .curso-cc{
+	
+	.cc-grid-banner{
+		background: $color_brand_blue;
+		display: grid;
+		grid-template-areas:
+			"topleft topright";
+		grid-template-columns: 60% 40%;
+		grid-gap: 2%;
+		padding: 0rem;
+		position: relative;
+		
+		@media (max-width: $breakpoint_2){
+			grid-template-areas:
+				"top"
+				"bottom";
+			grid-template-columns: 100%;
+		}
+		
+		.banner{
+			grid-area: topleft;
+			justify-self: stretch;
+			
+			@media (max-width: $breakpoint_2){
+				grid-area: top;
+			}
+			
+		}
+		
+		h1{
+		    grid-area: topright;
+		    padding: 1rem 1rem 1rem 0;
+		    margin: 2rem 0;
+		    line-height: 57px;
+		    
+		    @media (max-width: $breakpoint_2){
+				grid-area: bottom;
+				padding: 1rem ;
+			}
+		}
+		
+		.small{
+			margin: .7rem 3rem .7rem 0rem;
+		}
+		
+		.logo-amgen{
+			grid-area: topright;
+		    display: table;
+		    position: absolute;
+		    bottom: 1rem;
+		    right: 10%;
+		    max-width: 91px;
+		    
+		    @media (max-width: $breakpoint_2){
+				grid-area: bottom;
+				right: 2%;
+			}
+		}
+		
+	}
+	
+}

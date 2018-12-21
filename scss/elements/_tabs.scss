@@ -1,0 +1,43 @@
+// -----------------------
+// tabs
+// -----------------------
+
+.curso-cc,
+#region-main .curso-cc{
+	
+	.grid-cc{
+		
+		.nav-tabs{
+
+			margin: 1.9rem 0;
+			border: none;
+			
+			li{
+				
+				list-style-type: none;
+				
+				a{
+					
+					border: 1px solid $color_white;
+					background: $color_brand_blue;
+					color: $color_white;
+					border-radius: 0;
+					transition: all .1s ease-in-out;
+					font-family: $font_hel_medium;
+					font-size: $font_txt;
+					
+					&:hover{
+						border: 1px solid $color_brand_blue;
+						background: $color_white;
+						color: $color_brand_blue;
+					}
+					
+				}
+				
+			}
+			
+		}
+		
+	}
+	
+}

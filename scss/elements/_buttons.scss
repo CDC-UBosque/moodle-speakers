@@ -1,0 +1,58 @@
+// -----------------------
+// material modulo
+// -----------------------
+
+.curso-cc,
+#region-main .curso-cc{
+	
+	.botones-1{
+		background: $color_brand_blue;
+		border: 1px solid $color_brand_blue;
+		color: $color_white;
+	    border-radius: 0;
+	    padding: 0.6rem 1rem 0.3rem;
+	    text-shadow: none;
+	    font-family: $font_hel_medium;
+	    font-size: 16px;
+	    line-height: initial;
+	    transition: all ease-in-out .2s;
+	    text-decoration: none;
+	        display: inline-block;
+	    
+	    .fa{
+		    width: initial;
+		}
+	    
+	    &:hover{
+		    background: $color_white;
+			border: 1px solid $color_brand_blue;
+			color: $color_brand_blue;
+	    }
+	}
+	
+	.botones-2{
+		background: $color_white;
+		border: 1px solid $color_brand_blue;
+		color: $color_brand_blue;
+	    border-radius: 0;
+	    padding: 0.6rem 1rem 0.3rem;
+	    text-shadow: none;
+	    font-family: $font_hel_medium;
+	    font-size: 16px;
+	    line-height: initial;
+	    transition: all ease-in-out .2s;
+	    text-decoration: none;
+	        display: inline-block;
+	    
+	    .fa{
+		    width: initial;
+		}
+	    
+	    &:hover{
+		    background: $color_brand_blue;
+			border: 1px solid $color_brand_blue;
+			color: $color_white;
+	    }
+	}
+	
+}
