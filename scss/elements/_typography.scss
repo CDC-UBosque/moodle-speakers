@@ -23,12 +23,39 @@
 	}
 	
 	h2{
+		font-family: $font_hel_light;
 		display: block;
-		    font-weight: 100;
+		color: $color_text !important;
+		margin-bottom: .5rem;
+		margin-left: 0;
+		font-weight: 100;
 	}
 	
 	h3{
+		font-family: $font_hel_light;
 		display: block;
+		margin-bottom: .5rem;
+		    font-weight: 100;
+	}
+	
+	h4{
+		font-family: $font_hel_light_italic;
+		display: block;
+		margin-bottom: .5rem;
+		    font-weight: 100;
+	}
+	
+	h5{
+		font-family: $font_hel_light;
+		display: block;
+		margin-bottom: .5rem;
+		    font-weight: 100;
+	}
+	
+	h6{
+		font-family: $font_hel_light;
+		display: block;
+		margin-bottom: .5rem;
 		    font-weight: 100;
 	}
 	

@@ -8,19 +8,61 @@
 	.grid-cc{
 		display: grid;
 		grid-template-areas:
-			"video text"
-			"footer footer";
-		grid-template-columns: 70% 1fr;
+			"content"
+			"content"
+			"footer";
 		grid-gap: 1rem;
 		padding: 0rem;
 		position: relative;
 		
-		@media (max-width: $breakpoint_2){
+		//@media (max-width: $breakpoint_2){
+		//	grid-template-areas:
+		//		"content"
+		//		"footer";
+		//	grid-template-columns: 1fr;
+		//}
+		
+		.content-cc{
+			display: grid;
 			grid-template-areas:
-				"video"
-				"text"
-				"footer";
-			grid-template-columns: 1fr;
+				"video text";
+			grid-template-columns: 70% 1fr;
+			grid-gap: 1rem;
+			
+			@media (max-width: $breakpoint_2){
+				grid-template-areas:
+					"video"
+					"text";
+				grid-template-columns: 1fr;
+			}
+			
+			.description{
+				grid-area: text;
+				position: relative;
+				align-self: end;
+				//justify-self: end;
+				
+				@media (max-width: $breakpoint_1){
+					margin-top: 1rem;
+				}
+				
+				h2{
+					//color: $color_text;
+					display: block;
+				}
+				
+				p{
+					//bottom: 0;
+					//position: absolute;	
+					
+					@media (max-width: $breakpoint_1){
+						position: initial;
+					}
+				
+				}
+				
+			}
+		
 		}
 		
 	}
@@ -52,26 +94,6 @@
 	    margin: 2rem auto;
 	    text-align: center;
 	    max-width: 900px;
-	}
-	
-	.description{
-		grid-area: text;
-		position: relative;
-		
-		@media (max-width: $breakpoint_1){
-			margin-top: 1rem;
-		}
-		
-		p{
-			bottom: 0;
-			position: absolute;	
-			
-			@media (max-width: $breakpoint_1){
-				position: initial;
-			}
-		
-		}
-		
 	}
 	
 	.botones{
